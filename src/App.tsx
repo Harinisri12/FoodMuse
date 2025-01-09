@@ -7,7 +7,7 @@ import { Login } from './components/Login';
 import { Register } from './components/Register';
 import type { User } from './types';
 
-const API_KEY = "7cc22059637841c1bb9c2fcd98cc9374";
+const API_KEY = "YourAPIKey";
 
 function IngredientInput({ onGenerateRecipes }: { onGenerateRecipes: (ingredients: string[]) => void }) {
   const [ingredients, setIngredients] = useState<string[]>([]);
